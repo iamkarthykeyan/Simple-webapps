@@ -1,0 +1,196 @@
+*{
+   height: max-content;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+background-attachment: fixed;
+background-size: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh; 
+    overflow:hidden;
+    background-image: url(img/felix-mittermeier-ihbqhutI9x4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-elements{
+  flex: 1;
+  text-align: right;
+  }
+  .nav-elements ul li{
+      list-style: none;
+      display: inline-block;
+      margin-left: 60px;
+  }
+  .nav-elements ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 17px;  
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  .nav-elements ul{
+      position:absolute;
+      left: 50%;
+  }
+  .navbar li > a:hover::after {
+    width: 100%;
+    transition: width .3s;
+  }
+  .navbar li > a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+  }
+
+  /* Main text */
+  h3.jam{
+    font-size: 350%;
+    color: white;
+    position: absolute;
+    left: 55.7%;
+    top: 100%;
+  }
+  h3.time{
+    position: absolute;
+    top:100%;
+    left: 40%;
+    }
+    h3.first{
+      position: relative;
+      left: 8px;
+    }
+    .content{
+      top: 50%;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      right: 25%;
+      top: 23%;
+      background-attachment: fixed;
+    }
+    .rocket{
+      width: 4%;
+      position: absolute;
+      top: 44px;
+      background-attachment: fixed;
+      right: 560px;
+    }
+
+ /* Main Image */
+.astro{
+    width: 35%;
+    cursor:pointer;
+    position: absolute;
+    background-attachment: fixed;
+    left: 12%;
+    top: 34%;
+}
+.rock{
+width: 700px;
+position: absolute;
+top: 80%;
+background-attachment: fixed;
+right: 52%;
+}
+/* Sign in page */
+.Login {
+    width: 295px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 5px 5px 6px 6px rgba(0, 0, 0, 0.425);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    position: absolute;
+    left: 61%;
+    top: 18%;
+  }
+  .notyet{
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    left: 17%;
+    top: 10px;
+    letter-spacing: 0.8px;
+  }
+  .Login form{
+    position: relative;
+    right: 5%;
+    top: 3%; 
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffffa9;
+    font-size: 50px;
+  }  
+  input {
+    width: 100%;
+    height: 40px;
+    caret-color: white;
+    margin:11px;
+    border-radius: 30px;
+    border: 0;
+    box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.301);
+  }
+input::placeholder{
+  color: #808080;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.signup{
+  font-weight: 100;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  left: 44%;
+  top: 2px;
+}
+  button {
+    background-image: linear-gradient(to right, #4400ff 0%, #0077ff 0%, #00b7ff 100%);
+    color: white;
+    font-family: 'lexend', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .Login button{
+    position: relative;
+    top: 45px;
+    left: 30px;
+  }
