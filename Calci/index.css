@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+img{
+    width: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.container{
+    height:100vh;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calci{
+    padding: 20px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    background-color: rgba(0, 0, 0, 0.925);
+    box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.356)
+}
+input{
+    height: 80px;
+    border-radius: 24px;
+    outline: none;
+    border: 0;
+    padding-left: 30px;
+    font-size: 45px;
+    grid-column: span 4;
+    margin-bottom: 35px;
+}
+button{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    margin: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 609;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+}
+.num{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+}
+.equal{
+    width: 15.5vw;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.877);
+
+}
+
+
